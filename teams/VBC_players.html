@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valencia Players</title>
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            background-color: white;
+            color: #000;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.2;
+            white-space: pre;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+        
+        .navigation {
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: 16px;
+        }
+        
+        .nav-link {
+            color: #000;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        
+        .nav-link:hover {
+            text-decoration: underline;
+        }
+        
+        .player-stats-table {
+            margin-bottom: 10px;
+            text-align: left;
+            font-family: 'Courier New', monospace;
+        }
+        
+        .player-row {
+            background-color: #f2f2f2;
+            padding: 1px;
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+                font-size: 13px;
+            }
+            
+            .navigation {
+                font-size: 14px;
+                margin-bottom: 15px;
+            }
+            
+            .nav-link {
+                margin: 0 5px;
+                font-size: 14px;
+            }
+            
+            .player-stats-table {
+                font-size: 13px;
+                overflow-x: auto;
+                max-width: 100%;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            body {
+                padding: 8px;
+                font-size: 12px;
+            }
+            
+            .navigation {
+                font-size: 14px;
+            }
+            
+            .player-stats-table {
+                font-size: 12px;
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="navigation">
+    <a href="../index.html" class="nav-link" style="color: blue;">Games</a><a href="../standings.html" class="nav-link" style="color: blue;">Standings</a><a href="../teams.html" class="nav-link" style="color: blue;">Teams</a><a href="../players_stats.html" class="nav-link" style="color: blue;">Leaders</a>
+</div>
+
+<div style="text-align: center;">
+<b>VALENCIA BASKET PLAYER STATS 25-26</b>
+
+<a href="VBC.html" class="nav-link" style="color: blue;">Schedule</a>
+</div>
+
+<div class="player-stats-table">
+ G   MP  PTS   R   A   S   B  TO  <b>PIR</b>
+-------------------------------------
+O.Moore G                            
+12 21.9 12.2 3.4 3.8 0.8 0.1 2.1 <b>13.8</b>
+     2P:53.2% 3P:41.7% FT:72.9%      
+<span class="player-row">D.Thompson G                         
+12 20.6 11.8 2.2 3.6 1.1 0.3 1.2 <b>12.9</b>
+     2P:53.8% 3P:42.6% FT:81.0%      </span>
+K.Taylor F                           
+12 22.3 10.5 3.8 1.7 0.7 0.3 1.2 <b>11.8</b>
+     2P:55.3% 3P:41.3% FT:89.5%      
+<span class="player-row">J.Montero G                          
+ 8 19.1 10.2 2.8 3.6 1.1 0.2 1.1 <b>11.4</b>
+     2P:33.3% 3P:27.5% FT:96.4%      </span>
+N.Reuvers F                          
+12 20.0  8.8 3.6 0.2 0.7 1.1 0.6 <b> 9.5</b>
+     2P:60.6% 3P:40.5% FT:69.0%      
+<span class="player-row">M.Costello C                         
+11 20.1  7.0 4.7 1.5 0.7 0.6 1.1 <b> 9.0</b>
+     2P:68.2% 3P:33.3% FT:42.1%      </span>
+S.De Larrea G                        
+ 7 15.4  7.0 2.0 3.4 0.7 0.0 1.6 <b> 8.1</b>
+     2P:47.8% 3P:57.1% FT:42.9%      
+<span class="player-row">J.Pradilla C                         
+12 21.6  6.2 4.0 1.8 0.3 0.2 1.6 <b> 7.8</b>
+     2P:61.5% 3P:31.8% FT:85.7%      </span>
+B.Badio G                            
+ 9 16.8 12.1 1.7 0.8 0.6 0.2 2.0 <b> 7.2</b>
+     2P:77.4% 3P:35.3% FT:87.5%      
+<span class="player-row">J.Puerto G                           
+11 15.3  5.6 2.1 0.5 0.5 0.1 0.4 <b> 5.4</b>
+     2P:58.8% 3P:35.7% FT:92.3%      </span>
+N.Sako C                             
+11 13.2  4.6 3.3 0.5 0.3 0.5 1.0 <b> 4.4</b>
+     2P:52.6% 3P: 0.0% FT:52.4%      
+<span class="player-row">I.Nogues G                           
+ 8  3.2  0.0 0.9 0.2 0.4 0.0 0.2 <b> 0.2</b>
+     2P: 0.0% 3P: 0.0% FT: 0.0%      </span>
+</div>
+
+</body>
+</html>
